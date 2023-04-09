@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:orientation="vertical"
+    android:layout_height="150dp">
+
+    <TextView
+        android:id="@+id/r_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:00"
+        android:textSize="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/r_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17°c"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/oswald_light"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/r_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunny"
+        android:textSize="25dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/r_wind_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14km/h"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
